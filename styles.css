@@ -1,6 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
+    margin: 10px;
 }
 
 .container {
@@ -107,3 +107,27 @@ h3 {
 .bruce img {
     border-radius: 50%;
 }
+
+
+/* Part 1 Testimonials */
+.testimonials {
+    width: 100%;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony {
+    width: 60%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony .person {
+    margin-right: 40px;
+}
+
